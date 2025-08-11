@@ -13,8 +13,8 @@ version '1.5'
 exports { 'CheckIsAnimate' }
 
 client_script 'code/client.lua'
-shared_script 'code/config.lua'
+shared_script 'config.lua'
 server_scripts {
 	'@oxmysql/lib/MySQL.lua',
-	'server.lua',
+	'code/server.lua',
 }
